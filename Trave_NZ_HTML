@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Design</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="https://i.postimg.cc/QdvtKnh7/DALL-E-2024-11-14-12-37-42-A-modern-and-professional-logo-for-a-tourism-company-named-Trave-NZ.webp" alt="Logo" />
+      </div>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li>
+            <a href="#">Tours <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Buttons -->
+      <div class="auth-buttons">
+        <button class="signup-btn">Sign up</button>
+        <button class="signin-btn">Sign in</button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Explore New Zealand</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+      <!-- Header Section -->
+      <section class="header">
+        <div class="header-content">
+          <h1>Explore New Zealand</h1>
+          <p>Unforgettable Adventures Await</p>
+          <a href="#" class="explore-link">Explore Tours →</a>
+        </div>
+        <div class="header-image">
+          <img src="https://i.postimg.cc/3wDkLQn9/img-1536158664-5812-17824-722-C5-D30-9984-DC99-AF48-D13-DBA41-C21-E-a-Wxvdm-Vr-ZWxse-Qo-Crop-Resize-Wz-E5-MDAs-MTA.jpg" alt="Explore New Zealand's Hidden Gems" />
+        </div>
+      </section>
+
+      <!-- Hidden Gems Section -->
+      <section class="hidden-gems">
+        <h2>Explore New Zealand's Hidden Gems</h2>
+        <p>Uncover the beauty, adventure, and unforgettable moments New Zealand has to offer.Whether you're drawn to the serenity of Fiordland, the vibrant energy of Auckland, or the scenic wonders of the South Island, Trave NZ has the perfect tour for you.Embark on a journey crafted for discovery, excitement, and memories that will last a lifetime.</p>
+
+        <!-- Cards Section -->
+        <div class="cards-container">
+          <!-- Card 1 -->
+          <div class="card">
+            <img src="https://i.postimg.cc/L4VnQT3d/download-1.jpg">
+            <h3>Explore Fiordland</h3>
+            <p>Cruise through iconic fjords, witness towering peaks, and immerse in serene beauty.</p>
+            <a href="#" class="learn-more">Learn more →</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img src="https://i.postimg.cc/CLLd3qcR/new-zealand-auckland-skyline-at-night-tnz-1800x0-c-default.jpg">
+            <h3>Auckland Adventure</h3>
+            <p>Experience the best of Auckland's vibrant city life, paired with coastal views and island visits.</p>
+            <a href="#" class="learn-more">Learn more →</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <img src="https://i.postimg.cc/c4960LzX/images.jpg">
+            <h3>South Island Explorer</h3>
+            <p>A scenic journey through New Zealand's famous South Island, packed with adventure and relaxation.</p>
+            <a href="#" class="learn-more">Learn more →</a>
+          </div>
+        </div>
+      </section>
+    </body>
+
+    </html>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="https://i.postimg.cc/QdvtKnh7/DALL-E-2024-11-14-12-37-42-A-modern-and-professional-logo-for-a-tourism-company-named-Trave-NZ.webp" alt="Logo" class="footer-logo" />
+          <p>&copy; 2024 <span class="bold">Website</span>. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tour Listings</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+      <!-- Sort Section -->
+      <div class="sort-container">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option>Select...</option>
+          <option>Our Recommendations</option>
+          <option>Price (lowest first)</option>
+          <option>Price (highest first)</option>
+          <option>Top Reviewed</option>
+          <option>Best Reviewed and lowest price</option>
+          <option>Tour Rating and price</option>
+        </select>
+        <input type="date" value="2024-05-11" />
+      </div>
+
+      <!-- Tour Cards -->
+      <div class="tour-listings">
+        <!-- Tour 1 -->
+        <div class="tour-card">
+          <img src="https://i.postimg.cc/gj0XHX5L/4-Night-Fiordland-Once-in-a-Lifetime-Experience-scaled.jpg">
+          <div class="tour-info">
+            <div class="tour-meta">
+              <span>📅 5 Jan 2024</span>
+              <span>💲 $90</span>
+              <span class="rating">8.1 <span class="label">Very Good</span></span>
+            </div>
+            <h3>Fiordland Serenity Cruise</h3>
+            <p>Experience the quiet beauty of Fiordland with a private cruise, exploring secluded coves and iconic cliffs.</p>
+            <a href="#" class="read-more">Read more →</a>
+          </div>
+        </div>
+
+        <!-- Tour 2 -->
+        <div class="tour-card">
+          <img src="https://i.postimg.cc/jdLnWfPG/waiheke-auckland-view.jpg">
+          <div class="tour-info">
+            <div class="tour-meta">
+              <span>📅 5 Jan 2024</span>
+              <span>💲 $120</span>
+              <span class="rating">9.4 <span class="label">Excellent</span></span>
+            </div>
+            <h3>Auckland’s Urban Adventure</h3>
+            <p>Discover the best of Auckland, where city excitement meets natural beauty. Enjoy panoramic views and wine tastings.</p>
+            <a href="#" class="read-more">Read more →</a>
+          </div>
+        </div>
+
+        <!-- Tour 3 -->
+        <div class="tour-card">
+          <img src="https://i.postimg.cc/c4960LzX/images.jpg">
+          <div class="tour-info">
+            <div class="tour-meta">
+              <span>📅 5 Jan 2024</span>
+              <span>💲 $250</span>
+              <span class="rating">9.4 <span class="label">Excellent</span></span>
+            </div>
+            <h3>South Island Highlights</h3>
+            <p>Embark on a scenic journey across New Zealand’s South Island. Experience Milford Sound and the island’s stunning diversity.</p>
+            <a href="#" class="read-more">Read more →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#">&lt;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">&gt;</a>
+      </div>
+    </body>
+
+    </html>
+
+    <!DOCTYPE html>
+
+    <section class="contact">
+      <h2>Get in Touch with Trave NZ</h2>
+      <p>Have questions about our tours, or need help planning your New Zealand adventure? Our team is here to assist! Reach out to us for personalized recommendations, booking assistance, or any other inquiries. Let’s make your journey through New Zealand unforgettable.</p>
+
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Call us:</strong> +64 210 852 8852</p>
+        <p><strong>Email:</strong> TraveNZ@hotmail.com</p>
+        <p><strong>Address:</strong> 4 Nelson Street, Auckland CBD, Auckland 1010</p>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright © 2024 Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
